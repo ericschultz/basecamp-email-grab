@@ -18,11 +18,13 @@ If you're an account owner, you need have the following information:
 * username
 * password
 
-Your Basecamp ID is the number in the Projects URL for your account. 
-Your project url should have the following format: https://basecamp.com/(an integer).
-That integer is your Basecamp ID.
+Your Basecamp ID is the number in the Projects URL for your account.  Your project url should have the following format: https://basecamp.com/(an integer). That integer is your Basecamp ID.
 
-To get your emails, run `ruby emails.rb basecamp_id username password`.
+To get your emails, run:
+
+```
+ruby emails.rb basecamp_id username password
+```
 
 ## NOTES
 Not sure it works if you're not an owner. Please let me know! :)
